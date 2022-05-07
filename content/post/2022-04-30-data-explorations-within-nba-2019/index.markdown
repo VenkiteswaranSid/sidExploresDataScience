@@ -20,23 +20,21 @@ projects: []
   This data set contains the outcomes of every game in the 2019 NBA regular season. The information contained in this data set would be particularly useful to the front offices of each NBA team, as it contains valuable information and trends on some major statistics like points scored by a team, field goal percentage by a team, etc. The trends observed from this could prove useful to teams by providing them which areas they need to improve upon.
   The population of interest in this data set is all the games played in the 2019 season. The observational unit in this data set is a game. The majority of the variables in this data set are quantitative, with a few exceptions. Game location, opponent, game outcome, date, and team name, are all categorical variables. Specifically, game location and game outcome are categorical binary variables. 
 
+## Load in the libraries needed
 
 ```r
 library(tidyverse)
 library(corrplot)
 ```
 
-## Question 1: Is the mean free throw percentage the same across wins and losses?
 
-## Question 2: Does the number of steals and turnovers predict the team score?
-
-## Question 3: If the number of field goals attempted by a team increases, does the number of offensive rebounds also increase?
-
+## Load in the data
 
 ```r
 nba_df = read.csv('cleaned_nba_2019_outcomes_df.csv')
 ```
 
+## Clean the data frame
 
 ```r
 ## Changing the names of the teams from links to their actual names
@@ -88,7 +86,7 @@ mod_3_nba_df = mod_2_nba_df %>%
 
 
 
-## Question 1
+## Question 1: Is the mean free throw percentage the same across wins and losses?
 
 
 ### Visualization 
@@ -193,7 +191,7 @@ By looking at the distribution of the data from the density plot and the violin 
 
 
 
-## Question 2
+## Question 2: Does the number of steals and turnovers predict the team score?
 
 ```r
 mod_4_nba_df = mod_3_nba_df %>%
@@ -291,7 +289,7 @@ summary(model_2)
 There appears to be no linear relationship between the amount of steals and turnovers compared to the amount of points scored. Evidence for this can be seen in the p values for the intercept, turnovers for team, and steals for team in the summary of the model. All three p values are very small, which means that there is a lot of evidence available to reject the notion that there is a linear relationship present. In addition to the p value, we can see that there isn't a linear relationship by looking at the plot of the data. There is no clear association between the three variables as they are all scattered around. The reason for this might be because while steals and turnovers can impact a basketball game and whether a team wins or not, they do not have much of an effect on the team score. For example, if a team manages to get a lot of steals, but fails to score the ball off of those steals, the team score won't be affected very much. 
 
 
-## Question 3
+## Question 3: If the number of field goals attempted by a team increases, does the number of offensive rebounds also increase?
 
 ```r
 mod_3_nba_df %>%
