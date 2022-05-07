@@ -3,10 +3,10 @@ title: Data Explorations Within NBA 2019
 author: ''
 date: '2022-04-30'
 slug: data-explorations-within-nba-2019
-categories: []
+categories: [NBA, tidyverse]
 tags: []
-subtitle: ''
-summary: ''
+subtitle: 'Analyzing NBA data from the 2019 season'
+summary: 'In this post, statistical methods like linear models were used to analyze patterns within the 2019 NBA season'
 authors: []
 lastmod: '2022-04-30T16:18:32Z'
 featured: no
