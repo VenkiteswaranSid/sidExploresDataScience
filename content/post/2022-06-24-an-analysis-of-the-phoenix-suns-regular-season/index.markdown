@@ -144,6 +144,7 @@ phoenix_suns_df %>%
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+
 ## Summary
 From taking a brief look at this graph, it is evident that as the number of offensive rebounds increased, the number of free throws attempted decreased, as shown by the downward line of best fit for the graph. 
 
@@ -217,6 +218,7 @@ phoenix_suns_df %>%
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-6-1.png" width="672" />
+
 ## Summary
 As shown in this plot, as the months passed by, the Suns managed to continue their excellent performance and increase the number of points they scored in each game, as shown the by line of best fit. However, there is a lot of variance in this data, and a larger sample size would show a better overall trend. Let's take a look at the specifics of the Suns performance to see why they managed to improve as the season progressed. 
 
@@ -240,6 +242,7 @@ phoenix_suns_df %>%
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-7-1.png" width="672" />
+
 ## Summary
 This seems to explain the reason for the Suns improvement in scoring over the season. The team managed to improve their ball movement as the season progressed, which led to an increase in the number of assists, and in turn, the number of field goals. A possible explanation for why the assist number increased as the season went on could be explained by the injury to Chris Paul, which left the team without their best playmaker. As a result, more ball movement was required to replicate the effect Paul had for the Suns offense. This remarkable ball movement is why the Suns managed to improve scoring the ball as the season went on, and it looks even more impressive when taking a look at the next visualization...
 
@@ -263,6 +266,7 @@ phoenix_suns_df %>%
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-1.png" width="672" />
+
 ## Summary
 The excellent ball movement and offense was what kept the Suns in the first seed throughout the regular season, as the team couldn't rely on their defense to clamp down and prevent opposing teams from scoring. As the season went on, the Phoenix Suns allowed more points on defense, as shown by the upward trend in the line of best fit. Let's take a quick look into a possible reason why this was the case. 
 
@@ -286,6 +290,7 @@ phoenix_suns_df %>%
 ```
 
 <img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+
 ## Summary
 Here is one possible reason as to why the Suns defense started to break down as the season went on. There is a clear downward trend in the number of turnovers the team was able to force on defense as the season went on, shown by the line of best fit for the plot. By failing to force turnovers, opposing teams had more chances to score the ball, leading to an increase in opponent team scores as the season went on.
 
