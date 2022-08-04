@@ -73,3 +73,8 @@ related:
       weight: 70
 security:
   _merge: deep
+
+
+
+[[params.customCSS]]
+ href = "/cloud/project/static/widthoffile"
