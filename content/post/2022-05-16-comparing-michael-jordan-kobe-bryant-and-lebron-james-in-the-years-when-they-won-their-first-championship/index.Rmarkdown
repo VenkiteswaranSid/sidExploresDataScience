@@ -17,5 +17,6 @@ image:
   preview_only: no
 projects: []
 ---
+I created this web application using R Shiny to take a look at how Michael Jordan, Kobe Bryant, and LeBron James all performed during the first season in which they won their first NBA championship. The user can utilize the application to see how well any of these three players played compared to others at their position, or compared to their peers in the rest of the league. Additionally, there is also an option to see how well their teammates played during these seasons too, to take a look at how much help they received from them during these championship seasons. 
 
 <iframe height="800" width="100%" frameborder="no" src="https://gato365.shinyapps.io/sids_nba_project/"> </iframe>
