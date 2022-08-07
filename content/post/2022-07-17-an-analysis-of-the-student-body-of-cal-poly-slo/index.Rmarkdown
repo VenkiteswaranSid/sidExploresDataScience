@@ -1,12 +1,14 @@
 ---
-title: An Analysis of the Student Body of Cal Poly SLO
+title: "An Analysis of the Student Body of Cal Poly SLO"
 author: ''
 date: '2022-07-17'
 slug: an-analysis-of-the-student-body-of-cal-poly-slo
 categories: []
 tags: []
-subtitle: 'Taking a look where students in Cal Poly SLO come from within California'
-summary: 'In this post, a web application can be used to identify trends where students in Cal Poly SLO come from within the state of California, which can be done by all the schools in California, by the regions in California, or by the counties in California'
+subtitle: Taking a look where students in Cal Poly SLO come from within California
+summary: In this post, a web application can be used to identify trends where students
+  in Cal Poly SLO come from within the state of California, which can be done by all
+  the schools in California, by the regions in California, or by the counties in California
 authors: []
 lastmod: '2022-07-17T20:48:18Z'
 featured: no
